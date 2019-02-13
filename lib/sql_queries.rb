@@ -4,6 +4,7 @@ def selects_all_female_bears_return_name_and_age
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
+  #should i be stating which table i am calling this method on? eg. bears.name ?
   "Write your SQL query here"
   "SELECT name FROM bears ORDER BY name"
 end
@@ -37,5 +38,5 @@ end
 
 def selects_bear_that_killed_Tim
   "Write your SQL query here"
-  "SELECT * FROM bears WHERE name IS NULL"
+  "SELECT * FROM bears WHERE bears.name IS NULL"
 end
